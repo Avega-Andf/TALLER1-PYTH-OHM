@@ -82,13 +82,12 @@ else:
 ```
 En este codigo se compara si la suma de los dos primeros numeros "x" y "y" es mayor, menor o igual al tercer numero, usando solo los condicionales, "if", "elif" y "else"  por medio de las siguientes formulas:
 si se cumple esta formula, se imprime que la suma de los dos primeros numeros es mayor que z
-x+y>z
-
+##### x+y>z
 si se cumple esta formula, se imprime que la suma es menor
-x+y<z
+##### x+y<z
 
 si no se cumple ninguna de las anteriores, se imprime que la suma es igual al tercer numero
-x+y=z
+##### x+y=z
 
 
 ### 6.Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
@@ -302,15 +301,15 @@ print("El numero mayor elevado al numero menor es:" +str(m5**m1))
 print("la raiz del numero menor es: " +str(m1**0.5))
 ```
 En este codigo lo primero que se hace es ordenar los numeros de la siguiente forma:
-si el numero es el menor de los cinco numeros se llamara: m1
-si el numero es mayor que exactamente dos de los cinco numeros se llamara: m2
-si el numero es mayor que exactamente tres de los cinco numeros se llamara: m3
-si el numero es mayor que exactamente cuatro de los cinco numeros se llamara: m4
-si el numero es mayor que todos los demas numeros, se llamara:m5
-para hallar el promedio se suman m1, m2, m3, m4 y m5 y luego estos se dividen por la cantidad todal que seria 5
-Para hallar la mediana solo se imprime el valor m3, ya que al ordenar los valores m3 seria el valor intermedio, de los numeros ya ordenados
-para hallar el promedio multiplicativo, se multiplica, m1, m2, m3, m4 y m5 y a estos se les saca la raiz de 5, que es la cantidad total de valores
-para ordenarlos de menor a mayor se imprime m1, m2, m3, m4 y m5, en ese orden ya que se les asigno esos valores de menor a mayor
+###### si el numero es el menor de los cinco numeros se llamara: m1
+###### si el numero es mayor que exactamente dos de los cinco numeros se llamara: m2
+###### si el numero es mayor que exactamente tres de los cinco numeros se llamara: m3
+###### si el numero es mayor que exactamente cuatro de los cinco numeros se llamara: m4
+###### si el numero es mayor que todos los demas numeros, se llamara:m5
+###### para hallar el promedio se suman m1, m2, m3, m4 y m5 y luego estos se dividen por la cantidad todal que seria 5
+###### Para hallar la mediana solo se imprime el valor m3, ya que al ordenar los valores m3 seria el valor intermedio, de los numeros ya ordenados
+###### para hallar el promedio multiplicativo, se multiplica, m1, m2, m3, m4 y m5 y a estos se les saca la raiz de 5, que es la cantidad total de valores
+###### para ordenarlos de menor a mayor se imprime m1, m2, m3, m4 y m5, en ese orden ya que se les asigno esos valores de menor a mayor
 para ordenarlos de mayor a menor se imprime m5, m4, m3, m2 y m1, en ese orden, que seria imprimirlos en el orden que se les asigno pero alreves.
 Para hallar el numero mayor elevado al menor numero seria elevar m1 a m5 
 Para hallar la raiz del numero menor se eleva 0.5 al m1
@@ -349,22 +348,22 @@ elif frecuencia >   30.0*10**15  and frecuencia <= 30.0*10**18 :
 else:
   print("Rayos gamma")
   ```
-Para el codigo se usa la siguiente clasificacion:
-Muy baja frecuencia (0 - 30 kHz)
-Onda Larga - Radio (30 kHz - 650 kHz)
-Onda Media - Radio (650 kHz - 1.7 MHz)
-Onda Corta - Radio (1.7 MHz - 30 MHz)
-Muy Alta Frecuencia - Radio (30 MHz - 300 MHz)
-Ultra Alta Frecuencia - Radio (300 MHz - 3 GHz)
-Microondas (3 GHz - 300 GHz)
-Infrarrojo lejano/submilimétrico (300 GHz - 6 THz)
-Infrarrojo medio (6 THz - 120 THz)
-Infrarrojo cercano (120 THz - 384 THz)
-Espectro visible (384 THz - 789 THz)
-Ultravioleta cercano (789 THz - 1.5 PHz)
-Ultravioleta extremo (1.5 PHz - 30 PHz)
-Rayos X (30 PHz - 30 EHz)
-Rayos gamma (> 30 EHz)
+##### Para el codigo se usa la siguiente clasificacion:
+###### Muy baja frecuencia (0 - 30 kHz)
+###### Onda Larga - Radio (30 kHz - 650 kHz)
+###### Onda Media - Radio (650 kHz - 1.7 MHz)
+###### Onda Corta - Radio (1.7 MHz - 30 MHz)
+###### Muy Alta Frecuencia - Radio (30 MHz - 300 MHz)
+###### Ultra Alta Frecuencia - Radio (300 MHz - 3 GHz)
+###### Microondas (3 GHz - 300 GHz)
+###### Infrarrojo lejano/submilimétrico (300 GHz - 6 THz)
+###### Infrarrojo medio (6 THz - 120 THz)
+###### Infrarrojo cercano (120 THz - 384 THz)
+###### Espectro visible (384 THz - 789 THz)
+###### Ultravioleta cercano (789 THz - 1.5 PHz)
+###### Ultravioleta extremo (1.5 PHz - 30 PHz)
+###### Rayos X (30 PHz - 30 EHz)
+######VRayos gamma (> 30 EHz)
 en donde se usan condicionales y intarvalos para clasificarlos y imprimir  a que parte del espectro electromagnetico pertenecen los Hz que introduce el usuario.
   ### 9. Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 ```
@@ -468,7 +467,7 @@ print("La luz llegara en" ,str(luz)+  " minutos \n" + "El sonido a una temperatu
  ```
  En este codigo se digitan como variables "y", "a", "b", "c", las velocidades de la luz, del sonido, del auto mas rapido del mundo, y de bolt respectivamente, y como "x" la velocidad que el usario digita en Km, dividiendo esa distancia "x" entre las velocidades se puede calcular la velocidad que se tardaria cada uno en recorrer la distancia, ademas se divide la velocidad de la luz entre 60 para para poder dar el tiempo que tarda en minutos, despues de los calculos se imprime el tiempo que tomaria cada una de las velocidades en recorrer la distancia que se digito.
   ```
- graph TD
+ graph TD mermaid
 A[Inicio] --> B[Ingresar una distancia en km]
  C[Distancia dividido en 299792.458 y luego dividirlo en 60]
 C--> D[Imprimir tiempo de llegada de la luz en minutos]
